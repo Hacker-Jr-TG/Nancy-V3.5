@@ -283,9 +283,10 @@ async def Kgf_filter(client, message):
 🎙 Languages : Kannada, Hindi, Tamil, Malayalam, Telugu
 ⭐ Ratings : 9.6 / 10.0
 🎭 Genres : Action, Crime, Drama, Thriller
+
 ✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
         reply_markup=InlineKeyboardMarkup(KGF_D_BUTTON))
-    await asyncio.sleep(700)
+    await asyncio.sleep(800)
     await hegg.delete()
     await message.delete()
 
@@ -298,9 +299,10 @@ async def kgf_filter(client, message):
 🎙 Languages : Kannada, Hindi, Tamil, Malayalam, Telugu
 ⭐ Ratings : 9.6 / 10.0
 🎭 Genres : Action, Crime, Drama, Thriller
+
 ✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
         reply_markup=InlineKeyboardMarkup(KGF_D_BUTTON))
-    await asyncio.sleep(700)
+    await asyncio.sleep(800)
     await hvgg.delete()
     await message.delete()
 
@@ -313,8 +315,9 @@ async def KGF_filter(client, message):
 🎙 Languages : Kannada, Hindi, Tamil, Malayalam, Telugu
 ⭐ Ratings : 9.6 / 10.0
 🎭 Genres : Action, Crime, Drama, Thriller
+
 ✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
         reply_markup=InlineKeyboardMarkup(KGF_D_BUTTON))
-    await asyncio.sleep(700)
+    await asyncio.sleep(800)
     await hebg.delete()
     await message.delete()
