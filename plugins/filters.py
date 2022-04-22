@@ -1,4 +1,5 @@
 import io
+import random
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from plugins.photos import KGF_PHOTOS
