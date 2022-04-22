@@ -635,6 +635,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 🎙 Languages : Kannada, Hindi, Tamil, Malayalam, Telugu
 ⭐ Ratings : 9.6 / 10.0
 🎭 Genres : Action, Crime, Drama, Thriller
+
 ✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
             reply_markup=InlineKeyboardMarkup(KGF_BUTTON)
         )
@@ -645,6 +646,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 🎙 Languages : Kannada, Hindi, Tamil, Malayalam, Telugu
 ⭐ Ratings : 9.6 / 10.0
 🎭 Genres : Action, Crime, Drama, Thriller
+
 ✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
             reply_markup=InlineKeyboardMarkup(KGF_D_BUTTON)
         )
