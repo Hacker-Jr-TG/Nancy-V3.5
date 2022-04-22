@@ -1,5 +1,5 @@
 class Script(object):
-    START_TXT = """<b>Hello {},
+    START_TXT = """<b>{get} {},
 My Name is <a href=https://t.me/{}>{}</a>. A Smart RoBot With Many Amazing Features. I Can Provide Movies & Help You To Manage Your Groups, Just Add Me To Your Group And Enjoy.🥰</b>"""
 
     HELP_TXT = """<b>Hey {}
