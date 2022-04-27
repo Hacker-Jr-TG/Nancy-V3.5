@@ -6,6 +6,6 @@ KGF_PHOTOS = [
              ]
 
 HEIST_PHOTOS = [
-             "https://telegra.ph/file/fa9d59bbcab85a0c080cc.jpg"
-             "https://telegra.ph/file/18a29179a5b75cb3d3d93.jpg",            
+             "https://telegra.ph/file/fa9d59bbcab85a0c080cc.jpg",
+             "https://telegra.ph/file/18a29179a5b75cb3d3d93.jpg"            
              ]
