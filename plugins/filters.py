@@ -3,7 +3,7 @@ import random
 import asyncio
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from plugins.photos import KGF_PHOTOS
+from plugins.photos import KGF_PHOTOS, HEIST_PHOTOS
 from plugins.buttons import KGF_D_BUTTON, HEIST_BUTTON
 from database.filters_mdb import(
    add_filter,
