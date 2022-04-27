@@ -4,7 +4,7 @@ import asyncio
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from plugins.photos import KGF_PHOTOS
-from plugins.buttons import KGF_D_BUTTON
+from plugins.buttons import KGF_D_BUTTON, HEIST_BUTTON
 from database.filters_mdb import(
    add_filter,
    get_filters,
@@ -318,6 +318,22 @@ async def KGF_filter(client, message):
 
 ✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
         reply_markup=InlineKeyboardMarkup(KGF_D_BUTTON))
+    await asyncio.sleep(800)
+    await hebg.delete()
+    await message.delete()
+
+@Client.on_message(filters.regex('Money') & filters.incoming)
+async def Money_filter(client, message):
+    hebg = await message.reply_photo(
+        photo=random.choice(HEIST_PHOTOS),
+        caption=f"""<b>🧿 Title : Money Heist
+📆 Release : 2017
+🎙 Languages : Spanish,  Russian,  Serbian,  English
+⭐ Ratings : 8.2 / 10.0
+🎭 Genres : Action,  Crime,  Drama,  Mystery,  Thriller
+
+✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
+        reply_markup=InlineKeyboardMarkup(HEIST_BUTTON))
     await asyncio.sleep(800)
     await hebg.delete()
     await message.delete()
