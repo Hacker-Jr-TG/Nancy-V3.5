@@ -324,7 +324,7 @@ async def KGF_filter(client, message):
 
 @Client.on_message(filters.regex('money') & filters.incoming)
 async def money_filter(client, message):
-    hebg = await message.reply_photo(
+    mong = await message.reply_photo(
         photo=random.choice(HEIST_PHOTOS),
         caption=f"""<b>🧿 Title : Money Heist
 📆 Release : 2017
@@ -335,5 +335,5 @@ async def money_filter(client, message):
 ✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
         reply_markup=InlineKeyboardMarkup(HEIST_BUTTON))
     await asyncio.sleep(800)
-    await hebg.delete()
+    await mong.delete()
     await message.delete()
