@@ -322,8 +322,8 @@ async def KGF_filter(client, message):
     await hebg.delete()
     await message.delete()
 
-@Client.on_message(filters.regex('MONEY') & filters.incoming)
-async def MONEY_filter(client, message):
+@Client.on_message(filters.regex('Money') & filters.incoming)
+async def Money_filter(client, message):
     mong = await message.reply_photo(
         photo=random.choice(HEIST_PHOTOS),
         caption=f"""<b>🧿 Title : Money Heist
@@ -338,8 +338,8 @@ async def MONEY_filter(client, message):
     await mong.delete()
     await message.delete()
 
-@Client.on_message(filters.regex(['Money', 'Heist']) & filters.incoming)
-async def addfilter(client, message):
+@Client.on_message(filters.regex('Heist') & filters.incoming)
+async def Heist_filter(client, message):
     mon = await message.reply_photo(
         photo=random.choice(HEIST_PHOTOS),
         caption=f"""<b>🧿 Title : Money Heist
