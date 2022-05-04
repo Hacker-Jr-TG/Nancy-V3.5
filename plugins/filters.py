@@ -274,7 +274,7 @@ async def delallconfirm(client, message):
             quote=True
         )
 
-@Client.on_message(filters.regex('Kgf') & filters.incoming)
+@Client.on_message(filters.regex('Kgf') & filters.group)
 async def Kgf_filter(client, message):
     hegg = await message.reply_photo(
         photo=random.choice(KGF_PHOTOS),
@@ -290,7 +290,7 @@ async def Kgf_filter(client, message):
     await hegg.delete()
     await message.delete()
 
-@Client.on_message(filters.regex('kgf') & filters.incoming)
+@Client.on_message(filters.regex('kgf') & filters.group)
 async def kgf_filter(client, message):
     hvgg = await message.reply_photo(
         photo=random.choice(KGF_PHOTOS),
@@ -306,7 +306,7 @@ async def kgf_filter(client, message):
     await hvgg.delete()
     await message.delete()
 
-@Client.on_message(filters.regex('KGF') & filters.incoming)
+@Client.on_message(filters.regex('KGF') & filters.group)
 async def KGF_filter(client, message):
     hebg = await message.reply_photo(
         photo=random.choice(KGF_PHOTOS),
