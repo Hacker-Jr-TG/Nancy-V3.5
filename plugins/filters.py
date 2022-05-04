@@ -3,8 +3,8 @@ import random
 import asyncio
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from plugins.photos import KGF_PHOTOS, CBI_PHOTOS
-from plugins.buttons import KGF_D_BUTTON, CBI_BUTTON
+from plugins.photos import KGF_PHOTOS
+from plugins.buttons import KGF_D_BUTTON
 from database.filters_mdb import(
    add_filter,
    get_filters,
@@ -320,36 +320,4 @@ async def KGF_filter(client, message):
         reply_markup=InlineKeyboardMarkup(KGF_D_BUTTON))
     await asyncio.sleep(800)
     await hebg.delete()
-    await message.delete()
-
-@Client.on_message(filters.regex('Cbi') & filters.incoming)
-async def Cbi_filter(client, message):
-    mong = await message.reply_photo(
-        photo=random.choice(CBI_PHOTOS),
-        caption=f"""<b>📺 TɪᴛLᴇ : CBI Movies Collection 
-📆 YᴇAʀ : (1988 - 2022)
-🎙 LᴀNɢUᴀGᴇ : Malayalam
-⭐ RᴀTɪNɢ : 6.8 / 10.0
-🎭 GᴇNʀEs : Crime,  Mystery,  Thriller
-
-✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
-        reply_markup=InlineKeyboardMarkup(CBI_BUTTON))
-    await asyncio.sleep(800)
-    await mong.delete()
-    await message.delete()
-
-@Client.on_message(filters.regex('CBI') & filters.incoming)
-async def CBI_filter(client, message):
-    mon = await message.reply_photo(
-        photo=random.choice(CBI_PHOTOS),
-        caption=f"""<b>📺 TɪᴛLᴇ : CBI Movies Collection 
-📆 YᴇAʀ : (1988 - 2022)
-🎙 LᴀNɢUᴀGᴇ : Malayalam
-⭐ RᴀTɪNɢ : 6.8 / 10.0
-🎭 GᴇNʀEs : Crime,  Mystery,  Thriller
-
-✍️ Note: This message will be Auto-deleted after 10 hours to avoid copyright issues.</b>""",
-        reply_markup=InlineKeyboardMarkup(CBI_BUTTON))
-    await asyncio.sleep(800)
-    await mon.delete()
     await message.delete()
