@@ -1,8 +1,8 @@
 from pyrogram.types import InlineKeyboardButton
 
 KGF_D_BUTTON = [[
-               InlineKeyboardButton("KGF CHAPTER 1", callback_data="downlod"),
-               InlineKeyboardButton("KGF CHAPTER 2", callback_data="smovies")
+               InlineKeyboardButton("🔺 KGF CHAPTER 1", callback_data="downlod"),
+               InlineKeyboardButton("🔺 KGF CHAPTER 2", callback_data="smovies")
                ],[
                InlineKeyboardButton("📙 1/1", "dupe"),
                InlineKeyboardButton("🔐 Cʟᴏꜱᴇ", callback_data="close_data")            
@@ -25,7 +25,7 @@ KGF_BUTTON = [[
 KGF2_BUTTON = [[
              InlineKeyboardButton("⚜️ KGF : CHAPTER 2 HDRip ⚜️", "dupe")            
              ],[
-             InlineKeyboardButton("TAMIL", url="https://t.me/Oru_adaar_Robot?start=BATCH-BQADBQADOQYAAnHRAVeazV9wvpi4SRYE")            
+             InlineKeyboardButton("TAMIL", url="https://t.me/Oru_adaar_Robot?start=BATCH-BQADBQADVwUAAlDFqFfyQkfoBRMk9hYE")            
              ],[
              InlineKeyboardButton("❗️ Tamil Dubbed Only Available ❗️", "dupe")
              ],[
