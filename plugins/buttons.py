@@ -1,8 +1,8 @@
 from pyrogram.types import InlineKeyboardButton
 
 KGF_D_BUTTON = [[
-               InlineKeyboardButton("🔺 KGF CHAPTER 1", callback_data="downlod"),
-               InlineKeyboardButton("🔺 KGF CHAPTER 2", callback_data="smovies")
+               InlineKeyboardButton("KGF:CHAPTER 1", callback_data="downlod"),
+               InlineKeyboardButton("KGF:CHAPTER 2", callback_data="smovies")
                ],[
                InlineKeyboardButton("📙 1/1", "dupe"),
                InlineKeyboardButton("🔐 Cʟᴏꜱᴇ", callback_data="close_data")            
@@ -25,9 +25,12 @@ KGF_BUTTON = [[
 KGF2_BUTTON = [[
              InlineKeyboardButton("⚜️ KGF : CHAPTER 2 HDRip ⚜️", "dupe")            
              ],[
-             InlineKeyboardButton("TAMIL", url="https://t.me/Oru_adaar_Robot?start=BATCH-BQADBQADVwUAAlDFqFfyQkfoBRMk9hYE")            
+             InlineKeyboardButton("മലയാളം", url="https://t.me/Oru_adaar_Robot?start=BATCH-BQADBQAD6gYAAp1HEFT5j6tpkCCBnxYE"),
+             InlineKeyboardButton("TAMIL", url="https://t.me/Oru_adaar_Robot?start=BATCH-BQADBQAD6wYAAp1HEFSqCVFKw2lY4BYE")            
              ],[
-             InlineKeyboardButton("❗️ Tamil Dubbed Only Available ❗️", "dupe")
+             InlineKeyboardButton("HINDI", url="https://t.me/Oru_adaar_Robot?start=BATCH-BQADBQAD7QYAAp1HEFTE_HKrld4uHhYE"),
+             InlineKeyboardButton("TELUGU", url="https://t.me/Oru_adaar_Robot?start=BATCH-BQADBQAD7wYAAp1HEFT3XKJD-I0RmBYE"),
+             InlineKeyboardButton("KANNADA", url="https://t.me/Oru_adaar_Robot?start=BATCH-BQADBQAD7gYAAp1HEFTehfUxwp5svxYE")
              ],[
              InlineKeyboardButton("⏪ Bᴀᴄᴋ", callback_data="kgfdownlod"),
              InlineKeyboardButton("🔐 Cʟᴏꜱᴇ", callback_data="close_data")
